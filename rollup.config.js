@@ -19,6 +19,7 @@ export default [
         sourcemap: true,
       },
     ],
+    external: ["react", "react-dom", "primeflex", "primeicons", "primereact"],
     plugins: [
       resolve(),
       babel({ babelHelpers: 'bundled' }),
